@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const apiRoutes = require("./routes/routes");
 const corsOptions = {
-  origin: ["https://misterbdynasty-client.onrender.com"],
+  origin: ["https://misterbdynasty.onrender.com"],
 };
 
 /* SQL/Database*/
@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
   // Website you wish to allow to connect
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://misterbdynasty-client.onrender.com"
+    "https://misterbdynasty.onrender.com"
   );
 
   // Request methods you wish to allow
