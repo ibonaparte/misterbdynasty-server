@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const apiRoutes = require("./routes/routes");
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["https://misterbdynasty-client.onrender.com/"],
 };
 
 /* SQL/Database*/
